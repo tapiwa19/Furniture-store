@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import { products } from "@/data/products";
 import { ProductCard } from "@/components/product/ProductCard";
 
