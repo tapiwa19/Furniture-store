@@ -5,7 +5,7 @@ import { Product } from "@/types/product";
 export function ProductCard({ product }: { product: Product }) {
   return (
     <Link href={`/${product.category}/${product.slug}`} className="group">
-      <div className="aspect-[4/3] rounded-xl overflow-hidden bg-stone-200 mb-4">
+      <div className="aspect-4/3 rounded-xl overflow-hidden bg-stone-200 mb-4">
         <Image
           src={`/images/${product.slug}-1.jpg`}
           alt={product.name}
